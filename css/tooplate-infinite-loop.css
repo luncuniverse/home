@@ -277,7 +277,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #team {
-    background-image: url(../img/banner2.jpg) !important;
+    background-image: url(../img/banner2-mob.jpg) !important;
   }
 }
 
