@@ -271,13 +271,13 @@ blockquote {
   background-image: url(../img/banner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
   position: relative;
 }
 
 @media (max-width: 991px) {
   #team {
-    background-image: url(../img/banner2-mobile.jpg);
+    background-image: url(../img/banner2-mobile.jpg) !important;
   }
 }
 
@@ -299,27 +299,34 @@ blockquote {
 }
 
 .tm-team-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 1050px;
   margin: 0 auto;
 }
 
 .tm-team-item {
   max-width: 290px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 15px;
+  text-align: center;
 }
 
 .tm-team-item img {
   border-radius: 50%;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+}
+
+.tm-team-item blockquote {
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
 
 .tm-team-item figcaption {
-  text-align: right;
+  text-align: center;
   font-style: italic;
   font-size: 1.1rem;
 }
-
 /* Gallery */
 
 .tm-section-desc {
