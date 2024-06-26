@@ -269,7 +269,7 @@ blockquote {
 #team {
   color: white;
   background-image: url(../img/banner2.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -299,22 +299,19 @@ blockquote {
 }
 
 .tm-team-carousel {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   max-width: 1050px;
   margin: 0 auto;
 }
 
 .tm-team-item {
   max-width: 290px;
-  margin: 15px;
-  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .tm-team-item img {
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .tm-team-item blockquote {
@@ -323,7 +320,7 @@ blockquote {
 }
 
 .tm-team-item figcaption {
-  text-align: center;
+  text-align: right;
   font-style: italic;
   font-size: 1.1rem;
 }
