@@ -279,7 +279,7 @@ blockquote {
   #team {
     background-image: url(../img/banner2-mob.jpg) !important;
     background-size: cover;
-    background-size: 100%;
+    background-size: 200%;
     position: relative;
   }
 }
@@ -381,7 +381,7 @@ blockquote {
   position: relative;
   float: left;
   overflow: hidden;
-  background: #3085a3;
+  background: rgb(77, 30, 138);
   text-align: center;
   cursor: pointer;
 }
