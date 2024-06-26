@@ -265,8 +265,8 @@ blockquote {
 	padding: 20px 0 30px 0;
 }
 
-/* Testimonials */
-#testimonials {
+/* tokenomics */
+#tokenomics {
   color: white;
   background-image: url(../img/banner2.jpg);
   background-size: cover;
@@ -276,12 +276,12 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #testimonials {
+  #tokenomics {
     background-image: url(../img/banner2-mobile.jpg);
   }
 }
 
-.tm-testimonials-content {
+.tm-tokenomics-content {
   position: relative;
   z-index: 100;
 }
@@ -298,7 +298,7 @@ blockquote {
   z-index: 0;
 }
 
-.tm-testimonials-carousel {
+.tm-tokenomics-carousel {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -352,14 +352,14 @@ blockquote {
   color: #3ba0dd;
 }
 
-.tm-testimonials-carousel .slick-dots li button:before {
+.tm-tokenomics-carousel .slick-dots li button:before {
   color: white;
   opacity: 0.5;
 }
 
-.tm-testimonials-carousel .slick-dots li button:hover:before,
-.tm-testimonials-carousel .slick-dots li button:focus:before,
-.tm-testimonials-carousel .slick-dots li.slick-active button:before {
+.tm-tokenomics-carousel .slick-dots li button:hover:before,
+.tm-tokenomics-carousel .slick-dots li button:focus:before,
+.tm-tokenomics-carousel .slick-dots li.slick-active button:before {
   color: white;
   opacity: 1;
 }
