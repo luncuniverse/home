@@ -356,14 +356,14 @@ blockquote {
   color: #3ba0dd;
 }
 
-.tm-tokenomics-carousel .slick-dots li button:before {
+.tm-team-carousel .slick-dots li button:before {
   color: white;
   opacity: 0.5;
 }
 
-.tm-tokenomics-carousel .slick-dots li button:hover:before,
-.tm-tokenomics-carousel .slick-dots li button:focus:before,
-.tm-tokenomics-carousel .slick-dots li.slick-active button:before {
+.tm-team-carousel .slick-dots li button:hover:before,
+.tm-team-carousel .slick-dots li button:focus:before,
+.tm-team-carousel .slick-dots li.slick-active button:before {
   color: white;
   opacity: 1;
 }
