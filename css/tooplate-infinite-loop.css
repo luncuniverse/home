@@ -265,8 +265,8 @@ blockquote {
 	padding: 20px 0 30px 0;
 }
 
-/* tokenomics */
-#tokenomics {
+/* team */
+#team {
   color: white;
   background-image: url(../img/banner2.jpg);
   background-size: cover;
@@ -276,12 +276,12 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #tokenomics {
+  #team {
     background-image: url(../img/banner2-mobile.jpg);
   }
 }
 
-.tm-tokenomics-content {
+.tm-team-content {
   position: relative;
   z-index: 100;
 }
@@ -298,29 +298,29 @@ blockquote {
   z-index: 0;
 }
 
-.tm-tokenomics-carousel {
+.tm-team-carousel {
   max-width: 1050px;
   margin: 0 auto;
 }
 
-.tm-testimonial-item {
+.tm-team-item {
   max-width: 290px;
   margin-left: 35px;
   margin-right: 35px;
 }
 
-.tm-testimonial-item img {
+.tm-team-item img {
   border-radius: 50%;
   margin-bottom: 35px;
 }
 
-.tm-testimonial-item figcaption {
+.tm-team-item figcaption {
   text-align: right;
   font-style: italic;
   font-size: 1.1rem;
 }
 
-/* Work */
+/* Gallery */
 
 .tm-section-desc {
   max-width: 650px;
