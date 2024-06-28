@@ -564,6 +564,7 @@ figure.effect-honey:hover h2 i {
   background-image: url(../img/image9.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 120%;
   min-height: 980px;
   position: relative;
   padding-bottom: 50px;
