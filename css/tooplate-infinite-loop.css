@@ -255,6 +255,7 @@ blockquote {
 
 .tm-intro-text {
   font-size: 1.2rem;
+  color: rgb(77, 30, 138);
 }
 
 .tm-icon {
@@ -563,10 +564,13 @@ figure.effect-honey:hover h2 i {
   background-color: #001828;
   background-image: url(../img/image9.jpg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 120%;
+  position: relative;
   min-height: 980px;
   position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
   padding-bottom: 50px;
   padding-top: 100px;
 }
