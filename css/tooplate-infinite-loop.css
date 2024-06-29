@@ -258,6 +258,11 @@ blockquote {
   color: rgb(77, 30, 138);
 }
 
+.tm-intro-text ul,
+.tm-intro-text li {
+  color: rgb(77, 30, 138); 
+}
+
 .tm-icon {
   display: block;
   color: rgb(77, 30, 138);
