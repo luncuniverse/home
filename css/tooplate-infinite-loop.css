@@ -298,6 +298,8 @@ blockquote {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
 }
 
 @media (max-width: 991px) {
@@ -332,10 +334,15 @@ blockquote {
   margin: 0 auto;
 }
 
+.tm-team-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
 .tm-team-item {
   max-width: 290px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 0 15px;
   text-align: center;
 }
 
@@ -371,6 +378,17 @@ blockquote {
 
 .tm-team-item a span {
   color: white; 
+}
+
+@media (max-width: 768px) {
+  .tm-team-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tm-team-item {
+    margin: 15px 0;
+  }
 }
 
 /* Gallery */
