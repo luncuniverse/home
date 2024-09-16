@@ -66,6 +66,14 @@ blockquote {
   background-color: rgb(77, 30, 138);
 }
 
+.icon-size {
+  width: 3em;  /* Matches Font Awesome 3x size */
+  height: auto;  /* Maintain aspect ratio */
+  display: block;
+  margin: auto;
+}
+
+
 /* Navbar */
 
 .tm-navbar {
