@@ -67,10 +67,35 @@ blockquote {
 }
 
 .icon-size {
-  width: 3em;  /* Matches Font Awesome 3x size */
-  height: auto;  /* Maintain aspect ratio */
+  width: 3em;  /* Adjust as needed */
+  height: auto;
   display: block;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.tm-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.tm-text-primary {
+  margin-top: 1em;  /* Adds space between the image and heading */
+  text-align: center;
+}
+
+ul.tm-bullet-points {
+  list-style-type: none; /* Removes the bullets */
+  margin-top: 1em;
+  padding-left: 0;
+  display: inline-block; /* Centers the list */
+  text-align: left;
+}
+
+ul.tm-bullet-points li {
+  margin-bottom: 0.5em;
+  text-align: left; /* Keeps text aligned */
 }
 
 
